@@ -1,6 +1,5 @@
-type ExampleEntity @entity {
+type Fund1Commitment @entity {
   id: ID!
-  count: BigInt!
-  from: Bytes! # address
-  amountCommitSoft: BigInt! # uint256
+  hardAmount: BigInt! # uint256
+  softAmount: BigInt! # uint256
 }
